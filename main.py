@@ -70,6 +70,7 @@ sleep(4)
 print('SHUTTING DOWN...')
 print(''':) bye! You might see me next time with upgrades!
  ______________________________
+[                              ]
 [__________           _________]
 [|___()___|         |__()_____|]
 [                              ]
