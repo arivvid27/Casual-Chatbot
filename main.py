@@ -68,6 +68,13 @@ print('Please comment what you think about me and what arivvid27 should add to m
 
 sleep(4)
 print('SHUTTING DOWN...')
-print(':) bye! You might see me next time with upgrades!')
+print(''':) bye! You might see me next time with upgrades!
+ ______________________________
+[__________           _________]
+[|___()___|         |__()_____|]
+[                              ]
+[       -____________-         ]
+[______________________________]
+''')
 sleep(3)
-exit( '~~~~BOT IS SHUT DOWN~~~~' )
+exit('~~~~BOT IS SHUT DOWN~~~~')
