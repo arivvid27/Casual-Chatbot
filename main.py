@@ -46,9 +46,9 @@ else:
 	print('... \n')
 
 sleep(0.9)
-ask = input('You wanna ask me 3 questions? \n')
+ask = input('You wanna ask me a question? \n')
 if (ask == 'yes'):
-	question_1 = input('What are they? \n')
+	question_1 = input('What is it? \n')
 	if (question_1 == 'who are you'):
 		print(f"I am {who_am_i}.")
 		question_2 = input('Thats one... second question? \n')
@@ -60,21 +60,7 @@ if (ask == 'yes'):
 		question_2
 	else:
 		print('I don\'t know')
-		question_2
-		if (question_2 == 'who made you'):
-			print('arivvid27 made me. Go check out his profile, He\'s awesome!')
-			question_3 = input('Thats two, Last one! \n')
-		else:
-			print('I don\'t know.')
-			question_3
-			if (question_3 == 'I don\'t know'):
-				print('ok')
-				print('Thats all!')
-			elif (question_3 == 'Do you have a bug in you?'):
-				print('If you have found a bug, please say in comments.')
-				print('Thats all!')
-			else:
-				print('Ok. don\'t close this yet. There is one more thing.')
+		print('Ok. don\'t close this yet. There is one more thing.')
 elif (ask == 'no'):
 	print('Ok. don\'t close this yet. There is one more thing.')
 else:
