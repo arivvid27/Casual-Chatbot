@@ -51,13 +51,10 @@ if (ask == 'yes'):
 	question_1 = input('What is it? \n')
 	if (question_1 == 'who are you'):
 		print(f"I am {who_am_i}.")
-		question_2 = input('Thats one... second question? \n')
 	elif (question_1 == 'what are you'):
 		print('I am a bot...')
-		question_2
 	elif (question_1 == 'whats your favorite color'):
 		print('Blue is my favorite color.')
-		question_2
 	else:
 		print('I don\'t know')
 		print('Ok. don\'t close this yet. There is one more thing.')
